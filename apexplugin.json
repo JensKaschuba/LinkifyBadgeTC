@@ -1,0 +1,36 @@
+{
+  "name" : "LinkifyBadgeTC",
+  "version" : "1.0",
+  "description" : "LinkifyBadgeTC improves the standard TC Badge and the possibility to add a Link via Actions",
+  "keywords" : ["badge", "link"],
+  "homepage" : "https://github.com/JensKaschuba/LinkifyBadgeTC",
+  "bugs" : {
+    "url" : "https://github.com/JensKaschuba/LinkifyBadgeTC/issues",
+    "email" : "Jens@Kaschuba.de"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Jens Kaschuba",
+    "email" : "Jens@Kaschuba.de",
+    "url" : "https://github.com/JensKaschuba/LinkifyBadgeTC",
+    "twitter" : "JKaschuba",
+    "donationUrl" : "https://www.paypal.me/JensKaschuba"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/JensKaschuba/LinkifyBadgeTC.git"
+  },
+  "oracle" : {
+    "versions" : ["23.3", "21.1", "19.1"],
+    "apex" : {
+      "versions" : ["23.1.5"],
+      "plugin" : {
+        "internalName" : "DE.KASCHUBA.LinkifyBadgeTC",
+        "type" : "template component",
+        "demo" : "https://apex.oracle.com/pls/apex/r/kaschuba/linkifybadgetc-demo/home",
+        "previewImage" : "https://raw.githubusercontent.com/JensKaschuba/LinkifyBadgeTC/0b2f13ca6bac1a46856c471f5cb31501cf05b132/assets/LinkifyBadgeTC_IR_Scrennshot.png"
+      }
+    }
+  }
+}
